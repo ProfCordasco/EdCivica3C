@@ -49,22 +49,58 @@
     <h1 style="color: #800000" ><div class= "container text-center">Lavoro e web</h1>
     <br>
   
-    <h2 style="color: #d2691e" >La storia del web</h2>
+  
+  <!-- Esempio 1 con il testo che "avvolge" l'immagine lasciandola a destra:
+		Spostata immagine all'interno del paragrafo e aggiunta classe float-end all'immagine.
+		float-end permette di allineare l'immagine a destra e di farla "avvolgere" dal testo
+		(https://getbootstrap.com/docs/5.3/utilities/float/)
+		-->
+    <h2 style="color: #d2691e" >La storia del web (ESEMPIO 1)</h2>
     <p class="font-monospace">
+		<img src="../Img/computer.jpg" class="img-thumbnail float-end" alt="Computer">
      Il World Wide Web (WWW o semplicemente "il Web") è un mezzo di comunicazione globale che gli utenti possono usare per leggere e scrivere attraverso computer connessi a Internet. Il termine è spesso erroneamente usato come sinonimo di Internet stessa, ma il Web è un servizio che opera attraverso Internet.
 La storia del World Wide Web è dunque molto più breve di quella di Internet: inizia solo nel 1989 con la proposta di un "ampio database ipertestuale con link" da parte di Tim Berners-Lee ai propri superiori del CERN; si sviluppa in una rete globale di documenti HTML interconnessi negli anni novanta; si evolve nel cosiddetto Web 2.0 con il nuovo millennio. Si proietta oggi, per iniziativa dello stesso Berners-Lee, verso il Web 3.0
 Nel 1980 Tim Berners-Lee, un contractor indipendente presso l'Organizzazione europea per la ricerca nucleare (CERN) in Svizzera creò ENQUIRE, un database di persone e modelli software che permetteva di fare esperimenti con l'ipertesto. Ogni nuova pagina di ENQUIRE doveva essere collegata a una pagina esistente.    
  Il primo contratto di Berners-Lee andava dal giugno al dicembre 1980 ma nel 1984 egli ottenne un posto permanente. Il problema che si pose era quello della gestione dell'informazione: i fisici in tutto il mondo avevano bisogno di condividere dati, ma non usavano macchine o software compatibili.
 Poco dopo il ritorno di Berners-Lee al CERN i protocolli TCP/IP furono installati su alcuni computer dell'istituzione, rendendola, nel giro di pochi anni, il più importante nodo Internet in Europa. La struttura necessaria all'invenzione del web era pronta.   
     </p>
-    <img src="../Img/computer.jpg" class="img-thumbnail" alt="Computer">
+    
 <br>
+
+
+<!-- Esempio 2 con il testo a sinistra e l'immagine a destra, senza testo che la avvolge:
+		Aggiunta struttura row/col del grid system.
+		Io opterei per questa ed estenderei l'utilizzo di row e col a tutta la pagina, evitando l'utilizzo di <br> e utilizzando le classi mt- e mb-
+		(https://getbootstrap.com/docs/5.3/utilities/spacing/)
+		-->
+	<div class="row">
+		<div class="col">
+			<h2 style="color: #d2691e" >La storia del web (ESEMPIO 2)</h2>
+		</div>
+	</div>
+	<div class="row mb-5">
+		<div class="col">
+			<p class="font-monospace">
+			 Il World Wide Web (WWW o semplicemente "il Web") è un mezzo di comunicazione globale che gli utenti possono usare per leggere e scrivere attraverso computer connessi a Internet. Il termine è spesso erroneamente usato come sinonimo di Internet stessa, ma il Web è un servizio che opera attraverso Internet.
+			La storia del World Wide Web è dunque molto più breve di quella di Internet: inizia solo nel 1989 con la proposta di un "ampio database ipertestuale con link" da parte di Tim Berners-Lee ai propri superiori del CERN; si sviluppa in una rete globale di documenti HTML interconnessi negli anni novanta; si evolve nel cosiddetto Web 2.0 con il nuovo millennio. Si proietta oggi, per iniziativa dello stesso Berners-Lee, verso il Web 3.0
+			Nel 1980 Tim Berners-Lee, un contractor indipendente presso l'Organizzazione europea per la ricerca nucleare (CERN) in Svizzera creò ENQUIRE, un database di persone e modelli software che permetteva di fare esperimenti con l'ipertesto. Ogni nuova pagina di ENQUIRE doveva essere collegata a una pagina esistente.    
+			 Il primo contratto di Berners-Lee andava dal giugno al dicembre 1980 ma nel 1984 egli ottenne un posto permanente. Il problema che si pose era quello della gestione dell'informazione: i fisici in tutto il mondo avevano bisogno di condividere dati, ma non usavano macchine o software compatibili.
+			Poco dopo il ritorno di Berners-Lee al CERN i protocolli TCP/IP furono installati su alcuni computer dell'istituzione, rendendola, nel giro di pochi anni, il più importante nodo Internet in Europa. La struttura necessaria all'invenzione del web era pronta.   
+			</p>
+		</div>
+		<div class="col-2">
+			<img src="../Img/computer.jpg" class="img-thumbnail mt-5" alt="Computer">
+		</div>
+	</div>
+
     
 <h2 style="color: #d2691e" >Cos'è cambiato?</h2>
 <p class="font-monospace">
   Il passaggio al Web 2.0 ha segnato una svolta significativa nell'evoluzione di internet, trasformandolo da un semplice strumento di consultazione a una piattaforma interattiva e collaborativa. Nel Web 1.0, i siti web erano principalmente statici e unidirezionali, con gli utenti limitati al ruolo di consumatori passivi di contenuti. Con l'avvento del Web 2.0, sono emerse piattaforme che hanno permesso agli utenti di contribuire attivamente ai contenuti online attraverso la condivisione di informazioni, la creazione di contenuti originali e l'interazione sociale. Questo ha portato alla proliferazione dei social media, dei blog, dei wiki e di altre forme di comunità online, dove gli individui possono connettersi, collaborare e creare insieme. Inoltre, il concetto di "cloud computing" è diventato sempre più prominente, consentendo agli utenti di accedere e condividere dati e risorse tramite internet in modo più flessibile e conveniente. In sintesi, il Web 2.0 ha trasformato internet da un semplice mezzo di comunicazione a una piattaforma globale per la collaborazione e l'innovazione.
 </p>
 <br>
+
+
   <h2 style="color: #d2691e" >Conseguenze della diffusione del Web 2.0</h2>
 <p class="font-monospace">
   La diffusione del web 2.0 e dei social network ha modificato notevolmente le nostre abitudini
